@@ -1,0 +1,19 @@
+{ "name": "school-blog",
+  "version": "0.0.1",
+  "description": "Blog for Lacordaire School",
+  "authors": {
+    "name": "Camilo Caceres",
+    "email": "camilo.caceres@lacordaire.edu.co"
+  }, 
+  "scripts": {
+  "dev": "vuepress dev blog", 
+  "build": "vuepress build blog" 
+},
+  "dependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4"
+  },
+  "license": "MIT"
+}
